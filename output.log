@@ -1,0 +1,9 @@
+time="2025-05-05T14:10:36-07:00" level=warning msg="/home/ssharif2/bigdata/twitter_postgres_indexes/docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+SET
+SET
+CREATE INDEX
+CREATE INDEX
+CREATE INDEX
+NOTICE:  word is too long to be indexed
+DETAIL:  Words longer than 2047 characters are ignored.
+CREATE INDEX
