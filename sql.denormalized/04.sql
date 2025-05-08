@@ -7,8 +7,6 @@ WHERE to_tsvector('english',text)@@to_tsquery('english','coronavirus')
   AND lang='en'
 ;
 */
-SET max_parallel_maintenance_workers TO 80;
-SET maintenance_work_mem TO '16 GB';
 
 SELECT COUNT(*)
 FROM tweets_jsonb

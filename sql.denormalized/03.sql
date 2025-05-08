@@ -10,9 +10,6 @@ GROUP BY lang
 ORDER BY count DESC,lang;
 */
 
-SET max_parallel_maintenance_workers TO 80;
-SET maintenance_work_mem TO '16 GB';
-
 SELECT data->>'lang' AS lang, COUNT(DISTINCT data->>'id') AS count
 FROM tweets_jsonb
 WHERE   (

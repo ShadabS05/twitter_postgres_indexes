@@ -17,8 +17,6 @@ GROUP BY (1)
 ORDER BY count DESC,tag
 LIMIT 1000;
 */
-SET max_parallel_maintenance_workers TO 80;
-SET maintenance_work_mem TO '16 GB';
 
 SELECT tag, COUNT(*) AS count
 FROM (

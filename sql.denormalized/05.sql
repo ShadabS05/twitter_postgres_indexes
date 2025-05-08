@@ -1,6 +1,3 @@
-SET max_parallel_maintenance_workers TO 80;
-SET maintenance_work_mem TO '16 GB';
-
 
 SELECT tag, COUNT(*) AS count
 FROM (

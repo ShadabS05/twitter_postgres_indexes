@@ -1,5 +1,5 @@
-SET max_parallel_maintenance_workers TO 80;
-SET maintenance_work_mem TO '16 GB';
+SET max_parallel_maintenance_workers TO 8;
+SET maintenance_work_mem TO '2 GB';
 
 CREATE INDEX problem1 ON tweet_tags(tag, id_tweets);
 
